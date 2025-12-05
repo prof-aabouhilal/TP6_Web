@@ -1,69 +1,69 @@
 # TP 6 : Mini-Application Web Avancée (HTML + CSS + JS) & Introduction au PHP
-Ce TP vise à combiner les technologies HTML, CSS et JavaScript pour construire une mini-application web dynamique.
-Une deuxième petite partie introduit PHP à partir de l’affichage de variables simples (sans formulaires).
+Ce TP vise à combiner les technologies HTML, CSS et JavaScript pour construire une mini-application web dynamique.<br>
+Une deuxième petite partie introduit PHP à partir de l’affichage de variables simples (sans formulaires).<br>
 
 ## Travail Demandé
-Vous devez créer une page Web professionnelle et interactive, qui :
-✔ Utilise une structure HTML sémantique
-✔ Utilise un design responsive CSS moderne
-✔ Manipule le DOM via JavaScript
-✔ Implémente une petite calculatrice locale
-✔ Affiche dans une autre page PHP des variables simples
+Vous devez créer une page Web professionnelle et interactive, qui :<br>
+Utilise une structure HTML sémantique<br>
+Utilise un design responsive CSS moderne<br>
+Manipule le DOM via JavaScript<br>
+Implémente une petite calculatrice locale<br>
+Affiche dans une autre page PHP des variables simples<br>
 
 ## Structure des fichiers 
-tp6-web/
-│ index.html
-│ style.css
-│ app.js
-└─ info.php
+tp6-web/<br>
+│ index.html<br>
+│ style.css<br>
+│ app.js<br>
+└─ info.php<br>
 
 # Partie 1 — HTML (Interface)
 
-## Créez un fichier index.html contenant :
-une structure sémantique (header, main, footer)
-un titre
-un formulaire avec :
-Nombre A
-Nombre B
-Menu déroulant (choix de l’opération : + − × ÷)
-Bouton “Calculer”
-une zone d’affichage des messages d’erreurs
-une section “Historique des opérations”
+## Créez un fichier index.html contenant :<br>
+une structure sémantique (header, main, footer)<br>
+un titre<br>
+un formulaire avec :<br>
+Nombre A<br>
+Nombre B<br>
+Menu déroulant (choix de l’opération : + − × ÷)<br>
+Bouton “Calculer”<br>
+une zone d’affichage des messages d’erreurs<br>
+une section “Historique des opérations”<br>
 
 # Partie 2 — CSS
 
-Dans le fichier style.css, vous devez :
-✔ Utiliser Flexbox ou Grid
-✔ Rendre la page responsive
-✔ Ajouter effets hover/transitions
-✔ Créer une card visuelle pour afficher l’historique
+Dans le fichier style.css, vous devez :<br>
+Utiliser Flexbox ou Grid<br>
+Rendre la page responsive<br>
+Ajouter effets hover/transitions<br>
+Créer une card visuelle pour afficher l’historique<br>
 
 # Partie 3 — JavaScript (DOM & Validation)
 
-Le fichier app.js doit contenir :
-Récupération des valeurs saisies dans le formulaire
-Validation des données :
-Vérifier que les champs ne sont pas vides
-Interdire la division par zéro
-Affichage dynamique des erreurs dans la page (pas d’alert())
-Ajout des opérations dans un tableau JS
-Mise à jour de la section “Historique” :
-✔ Affichage dynamique (DOM)
-✔ Historique visible sous forme de liste
+Le fichier app.js doit contenir :<br>
+Récupération des valeurs saisies dans le formulaire<br>
+Validation des données :<br>
+Vérifier que les champs ne sont pas vides<br>
+Interdire la division par zéro<br>
+Affichage dynamique des erreurs dans la page (pas d’alert())<br>
+Ajout des opérations dans un tableau JS<br>
+Mise à jour de la section “Historique” :<br>
+Affichage dynamique (DOM)<br>
+Historique visible sous forme de liste<br>
 
 # Partie 4 — Introduction au PHP 
-Créer un fichier info.php qui :
-Déclare plusieurs variables PHP
-chaînes de caractères
-entiers
-résultats d'opérations
-Les affiche dans la page avec echo
-Effectue des calculs simples
-Affiche les résultats dans une page structurée
+Créer un fichier info.php qui :<br>
+Déclare plusieurs variables PHP<br>
+chaînes de caractères<br>
+entiers<br>
+résultats d'opérations<br>
+Les affiche dans la page avec echo<br>
+Effectue des calculs simples<br>
+Affiche les résultats dans une page structurée<br>
 
 ## Exemple de contenu attendu :
-Nom de l’établissement
-Module
-Année
-Exemples de variables numériques
-Résultat d’addition et multiplication
+Nom de l’établissement<br>
+Module<br>
+Année<br>
+Exemples de variables numériques<br>
+Résultat d’addition et multiplication<br>
